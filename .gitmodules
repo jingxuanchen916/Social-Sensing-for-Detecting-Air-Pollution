@@ -1,0 +1,3 @@
+[submodule "Data/NER"]
+	path = Data/NER
+	url = https://github.com/IBMMRL/medinfo2015.git
