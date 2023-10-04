@@ -29,11 +29,13 @@ As this project was implemented on Google Colab, reproducing models or experimen
 
 **Data**
 
+(*Note: **Sentiment** and **Prediction** folders are password protected, please contact me via [email](jingxuanchen916@gmail.com) if you would like to have the access :D*)
+
  - NER/[medinfo2015.linejson](https://github.com/IBMMRL/medinfo2015/blob/162f6f1dd4f5f162bea02a62d2cb393f3ac605d4/medinfo2015.linejson): the original fine-tuning data for NER models (extracted from [IBMMRL](https://github.com/IBMMRL)/[medinfo2015](https://github.com/IBMMRL/medinfo2015)), containing 1300 tweets and their clinical entities.
  - Sentiment/[annotated_tweets.xlsx](https://github.com/jingxuanchen916/Social-Sensing-for-Detecting-Air-Pollution/blob/main/Data/Sentiment/annotated_tweets.xlsx): the annotated fine-tuning data for Sentiment Analysis models, containing 1047 tweets and their sentiments (irrelevant/positive/neural/negative).
- - [Prediction](https://github.com/jingxuanchen916/Social-Sensing-for-Detecting-Air-Pollution/tree/main/Data/Prediction): unlabelled tweets for prediction, consisting of two sub-folders for the case study and general wildfire events.
-	 - Case Study/[saddleworth.csv](https://github.com/jingxuanchen916/Social-Sensing-for-Detecting-Air-Pollution/blob/main/Data/Prediction/Case%20Study/saddleworth.csv): 11,527 tweets that contain the keyword ``saddleworth`` between *22/06/2018* and *21/07/2018*.
-	 - [General](https://github.com/jingxuanchen916/Social-Sensing-for-Detecting-Air-Pollution/tree/main/Data/Prediction/General)/[year]_[month]_wildfire_air.csv: 68,680 tweets stored month by month, which contain the keywords ``wildfire`` AND  ``air`` between *01/01/2017* and *31/12/2021*.
+ - [Prediction](https://github.com/jingxuanchen916/Social-Sensing-for-Detecting-Air-Pollution/blob/main/Data/Prediction.zip): unlabelled tweets for prediction, consisting of two sub-folders for the case study and general wildfire events.
+	 - Case Study/saddleworth.csv: 11,527 tweets that contain the keyword ``saddleworth`` between *22/06/2018* and *21/07/2018*.
+	 - General/[year]_[month]_wildfire_air.csv: 68,680 tweets stored month by month, which contain the keywords ``wildfire`` AND  ``air`` between *01/01/2017* and *31/12/2021*.
  - Air Quality/[Case Study_Tameside Mottram Moor.csv](https://github.com/jingxuanchen916/Social-Sensing-for-Detecting-Air-Pollution/blob/main/Data/Air%20Quality/Case%20Study_Tameside%20Mottram%20Moor.csv): PM10 data monitored by the Tameside Mottram Moor station (the one closest to Saddleworth) between *22/06/2018* and *21/07/2018* (downloaded from [Air Quality in England](https://www.airqualityengland.co.uk)).
 
 
