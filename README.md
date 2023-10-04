@@ -29,7 +29,7 @@ As this project was implemented on Google Colab, reproducing models or experimen
 
 **Data**
 
-(*Note: **Sentiment** and **Prediction** folders are password protected, please contact me via [email](jingxuanchen916@gmail.com) if you would like to have the access :D*)
+(*Note: **Sentiment** and **Prediction** folders are password protected, please contact me via [email](mailto:jingxuanchen916@gmail.com) if you would like to have the access :D*)
 
  - NER/[medinfo2015.linejson](https://github.com/IBMMRL/medinfo2015/blob/162f6f1dd4f5f162bea02a62d2cb393f3ac605d4/medinfo2015.linejson): the original fine-tuning data for NER models (extracted from [IBMMRL](https://github.com/IBMMRL)/[medinfo2015](https://github.com/IBMMRL/medinfo2015)), containing 1300 tweets and their clinical entities.
  - Sentiment/[annotated_tweets.xlsx](https://github.com/jingxuanchen916/Social-Sensing-for-Detecting-Air-Pollution/blob/main/Data/Sentiment/annotated_tweets.xlsx): the annotated fine-tuning data for Sentiment Analysis models, containing 1047 tweets and their sentiments (irrelevant/positive/neural/negative).
